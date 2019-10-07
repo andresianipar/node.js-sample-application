@@ -1,0 +1,22 @@
+{
+    "name": "node.js-sample-application",
+    "version": "0.1.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andresianipar/node.js-sample-application.git"
+    },
+    "author": "Andre Sianipar",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/andresianipar/node.js-sample-application/issues"
+    },
+    "homepage": "https://github.com/andresianipar/node.js-sample-application#readme",
+    "dependencies": {
+        "requirejs": "^2.3.6"
+    }
+}
