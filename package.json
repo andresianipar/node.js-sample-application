@@ -17,6 +17,10 @@
     },
     "homepage": "https://github.com/andresianipar/node.js-sample-application#readme",
     "dependencies": {
-        "requirejs": "^2.3.6"
+        "colors": "^1.4.0",
+        "moment": "^2.24.0",
+        "optimist": "^0.6.1",
+        "requirejs": "^2.3.6",
+        "underscore": "^1.9.1"
     }
 }

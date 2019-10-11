@@ -1,0 +1,4 @@
+{
+    "_comment": "// 04 json > loading json in node.js",
+    "foo": "This is the value for foo"
+}
