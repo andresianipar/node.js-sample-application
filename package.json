@@ -17,23 +17,25 @@
     },
     "homepage": "https://github.com/andresianipar/node.js-sample-application#readme",
     "dependencies": {
+        "async": "^3.1.0",
         "body-parser": "^1.19.0",
         "colors": "^1.4.0",
         "compression": "^1.7.4",
         "connect": "^3.7.0",
-        "connect-mongo": "^3.1.0",
+        "connect-mongo": "^3.2.0",
         "connect-timeout": "^1.9.0",
         "cookie-parser": "^1.4.4",
-        "cookie-session": "^1.3.3",
+        "cookie-session": "^1.4.0",
         "express": "^4.17.1",
         "express-session": "^1.17.0",
         "moment": "^2.24.0",
-        "mongodb": "^3.3.3",
-        "mongoose": "^5.7.6",
+        "mongodb": "^3.5.2",
+        "mongoose": "^5.8.9",
         "optimist": "^0.6.1",
+        "q": "^1.5.1",
         "requirejs": "^2.3.6",
         "serve-index": "^1.9.1",
         "serve-static": "^1.14.1",
-        "underscore": "^1.9.1"
+        "underscore": "^1.9.2"
     }
 }
