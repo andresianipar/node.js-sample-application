@@ -1,24 +1,25 @@
 {
-    "name": "node.js-sample-application",
+    "name": "node.js-sample-code",
     "version": "0.1.0",
     "description": "",
     "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "nyc ./node_modules/mocha/bin/mocha --recursive './test/**/*.js'"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/andresianipar/node.js-sample-application.git"
+        "url": "git+https://github.com/andresianipar/node.js-sample-code.git"
     },
     "author": "Andre Sianipar",
     "license": "UNLICENSED",
     "bugs": {
-        "url": "https://github.com/andresianipar/node.js-sample-application/issues"
+        "url": "https://github.com/andresianipar/node.js-sample-code/issues"
     },
-    "homepage": "https://github.com/andresianipar/node.js-sample-application#readme",
+    "homepage": "https://github.com/andresianipar/node.js-sample-code#readme",
     "dependencies": {
-        "async": "^3.1.0",
+        "async": "^3.1.1",
         "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
         "colors": "^1.4.0",
         "compression": "^1.7.4",
         "connect": "^3.7.0",
@@ -28,14 +29,19 @@
         "cookie-session": "^1.4.0",
         "express": "^4.17.1",
         "express-session": "^1.17.0",
+        "mocha": "^7.0.1",
         "moment": "^2.24.0",
         "mongodb": "^3.5.2",
-        "mongoose": "^5.8.9",
+        "mongoose": "^5.8.11",
+        "nodemon": "^2.0.2",
         "optimist": "^0.6.1",
         "q": "^1.5.1",
         "requirejs": "^2.3.6",
         "serve-index": "^1.9.1",
         "serve-static": "^1.14.1",
         "underscore": "^1.9.2"
+    },
+    "devDependencies": {
+        "nyc": "^15.0.0"
     }
 }
