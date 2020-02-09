@@ -1,7 +1,3 @@
-// 04 revisiting node modules > folder-based modules
-exports.bar1 = require('./bar1')
-exports.bar2 = require('./bar2')
-
 // 04 json > loading json in node.js
 let config = require('./config')
 
@@ -79,7 +75,7 @@ let bar = {
 }
 
 // console.log('{"foo":{}}' === JSON.stringify(bar))
-foo.toJSON = function() {
+foo.toJSON = function () {
     return 'custom'
 }
 // console.log('{"foo":"custom"}' === JSON.stringify(bar))
@@ -95,7 +91,7 @@ require('colors')
 // console.log('Hello, World!'.rainbow)
 
 // 04 popular node.js packages > customizing console colors > how does it work?
-String.prototype.red = function(str) {
+String.prototype.red = function (str) {
     let redCode = '\x1b[31m'
     let clearCode = '\x1b[39m'
 
