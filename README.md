@@ -1,2 +1,4 @@
 # Node.js Sample Code
-This repository serves as documentation for the code I wrote while learning Node.js. The sample code is taken from [Beginning Node.js 1st ed. Edition](https://www.amazon.com/Beginning-Node-js-Basarat-Syed/dp/1484201884/ref=sr_1_1?crid=1CGUVZAJ53P9I&keywords=beginning+node.js&qid=1580983908&sprefix=beginning+no%2Caps%2C464&sr=8-1).
+This repository serves as documentation for the code I wrote while learning Node.js. The sample code is taken from:
+1. [Beginning Node.js 1st ed. Edition](https://www.amazon.com/Beginning-Node-js-Basarat-Syed/dp/1484201884/ref=sr_1_1?crid=1CGUVZAJ53P9I&keywords=beginning+node.js&qid=1580983908&sprefix=beginning+no%2Caps%2C464&sr=8-1)
+2. [Node.js Design Patterns - Second Edition: Master best practices to build modular and scalable server-side web applications 2nd Edition](https://www.amazon.com/Node-js-Design-Patterns-server-side-applications-ebook/dp/B01D8HIIFU/ref=sr_1_32?dchild=1&pf_rd_i=3617&pf_rd_p=ef7e8f36-77d5-55e0-9cac-f61c17031fff&pf_rd_r=5G5258RN3CYB5PMB9R8Q&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&qid=1586068738&refinements=p_72%3A1250221011&s=books&sr=1-32)
