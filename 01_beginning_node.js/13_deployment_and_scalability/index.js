@@ -112,7 +112,7 @@ function _5() {
     // _3();
 
     // 13 deployment and scalability > node.js clustering > handling http requests in workers
-    _4();
+    // _4();
 
     // 13 deployment and scalability > node.js clustering > communicating with the master
     // _5();
