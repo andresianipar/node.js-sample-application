@@ -1,5 +1,5 @@
 // 12 testing > mocha > creating and running a basic test
-describe('our test suite', () => {
+describe.skip('our test suite', () => {
     const assert = require('assert');
     let index = require('../../12_testing/index');
 
@@ -13,7 +13,7 @@ describe('our test suite', () => {
 });
 
 // 12 testing > mocha > mocha api > hooks
-describe('our test suite', () => {
+describe.skip('our test suite', () => {
     const assert = require('assert');
     let i = 0;
 
@@ -31,7 +31,7 @@ describe('our test suite', () => {
 });
 
 // 12 testing > mocha > async testing
-describe('our test suite', () => {
+describe.skip('our test suite', () => {
     let index = require('../../12_testing/index');
 
     it('test simulateAsync', () => {
@@ -70,7 +70,7 @@ describe('our test suite', () => {
 });
 
 // 12 testing > mocha > async testing > testing promises
-describe('our test suite', () => {
+describe.skip('our test suite', () => {
     const q = require('q');
 
     it('this should pass', () => {

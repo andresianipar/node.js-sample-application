@@ -1,3 +1,11 @@
+const f1 = function f1() {
+  const hello = 'Hello, World!';
+
+  // console.log(hello);
+
+  return hello;
+};
+
 const f2 = function f2() {
   function DelayedGreeter(name) {
     this.name = name;
@@ -187,6 +195,7 @@ const f10 = function f10() {
 };
 
 module.exports = {
+  f1,
   f2,
   f3,
   f4,

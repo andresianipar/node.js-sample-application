@@ -1,16 +1,18 @@
 const assert = require('assert');
 const m1 = require('../01_welcome_to_the_node.js_platform/02_introduction_to_node.js_6_and_es2015');
 
-// 2 introduction to node.js 6 and es2015 > the arrow function
-describe('the arrow function', () => {
+// 2 introduction to node.js 6 and es2015
+describe('introduction to node.js 6 and es2015', () => {
+  // Test f1 function
+  it('should get the desired results from the f1 function', () => {
+    assert.equal(m1.f1(), 'Hello, World!');
+  });
+
   // Test f2 function
   it('should get the desired results from the f2 function', () => {
     assert.equal(m1.f2(), undefined);
   });
-});
 
-// 2 introduction to node.js 6 and es2015 > class syntax
-describe('class syntax', () => {
   // Test f3 function
   it('should get the desired results from the f3 function', () => {
     const f3 = m1.f3();
@@ -26,18 +28,12 @@ describe('class syntax', () => {
     assert.equal(f4.bobFullName, 'Bob the Builder');
     assert.equal(f4.oldest.age, 13);
   });
-});
 
-// 2 introduction to node.js 6 and es2015 > enhanced object literals
-describe('enhanced object literals', () => {
   // Test f5 function
   it('should get the desired results from the f5 function', () => {
     assert.equal(m1.f5(), 'Alan Turing');
   });
-});
 
-// 2 introduction to node.js 6 and es2015 > map and set collections
-describe('map and set collections', () => {
   // Test f6 function
   it('should get the desired results from the f6 function', () => {
     const f6 = m1.f6();
@@ -67,10 +63,7 @@ describe('map and set collections', () => {
     assert.equal(f8.has(1), false);
     assert.equal(f8.has(5), true);
   });
-});
 
-// 2 introduction to node.js 6 and es2015 > weakmap and weakset collections
-describe('weakmap and weakset collections', () => {
   // Test f9 function
   it('should get the desired results from the f9 function', () => {
     assert.equal(m1.f9().get({}), undefined);

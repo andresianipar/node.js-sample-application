@@ -2,9 +2,14 @@
     "name": "node.js-sample-code",
     "version": "0.1.0",
     "description": "",
-    "main": "app.js",
+    "main": "",
     "scripts": {
         "test": "nyc ./node_modules/mocha/bin/mocha --recursive './**_**/test/**/*.js'"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npx eslint ./**/*.js"
+        }
     },
     "repository": {
         "type": "git",
@@ -30,13 +35,13 @@
         "express": "^4.17.1",
         "express-session": "^1.17.1",
         "forever": "^2.0.0",
+        "glob": "^7.1.6",
         "husky": "^4.2.5",
-        "mocha": "^7.1.1",
-        "moment": "^2.24.0",
-        "mongodb": "^3.5.6",
-        "mongoose": "^5.9.9",
+        "mocha": "^7.1.2",
+        "moment": "^2.25.1",
+        "mongodb": "^3.5.7",
+        "mongoose": "^5.9.11",
         "nodemon": "^2.0.3",
-        "optimist": "^0.6.1",
         "q": "^1.5.1",
         "requirejs": "^2.3.6",
         "serve-index": "^1.9.1",

@@ -1,6 +1,9 @@
-const m2 = require('./02_introduction_to_node.js_6_and_es2015');
+// const m2 = require('./02_introduction_to_node.js_6_and_es2015');
 
 const f2 = function f2() {
+  // 2 introduction to node.js 6 and es2015
+  // m2.f1();
+
   // 2 introduction to node.js 6 and es2015 > the arrow function
   // m2.f2();
 
@@ -18,7 +21,7 @@ const f2 = function f2() {
 
   // 2 introduction to node.js 6 and es2015 > weakmap and weakset collections
   // m2.f9();
-  m2.f10();
+  // m2.f10();
 };
 
 // 2 introduction to node.js 6 and es2015
