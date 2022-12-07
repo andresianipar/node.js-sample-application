@@ -23,7 +23,7 @@
     "homepage": "https://github.com/andresianipar/node.js-sample-code#readme",
     "dependencies": {
         "async": "^3.2.2",
-        "body-parser": "^1.19.0",
+        "body-parser": "^1.20.1",
         "chai": "^4.2.0",
         "colors": "^1.4.0",
         "compression": "^1.7.4",
@@ -32,7 +32,7 @@
         "connect-timeout": "^1.9.0",
         "cookie-parser": "^1.4.5",
         "cookie-session": "^1.4.0",
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "express-session": "^1.17.1",
         "forever": "^2.0.0",
         "glob": "^7.1.6",
