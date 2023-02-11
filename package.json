@@ -41,7 +41,7 @@
         "moment": "^2.29.2",
         "mongodb": "^3.5.7",
         "mongoose": "^5.9.11",
-        "nodemon": "^2.0.3",
+        "nodemon": "^2.0.20",
         "q": "^1.5.1",
         "requirejs": "^2.3.6",
         "serve-index": "^1.9.1",
